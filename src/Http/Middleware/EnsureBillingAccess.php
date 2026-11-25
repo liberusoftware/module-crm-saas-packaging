@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Http\Middleware;
+namespace Liberu\CRM\SaasPackaging\Http\Middleware;
 
-use App\Models\Team;
+use Liberu\Foundation\Organizations\Models\Team;
 use App\Models\User;
 use Closure;
 use Illuminate\Http\Request;

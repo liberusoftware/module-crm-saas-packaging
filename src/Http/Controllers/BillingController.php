@@ -2,12 +2,14 @@
 
 declare(strict_types=1);
 
-namespace App\Http\Controllers;
+namespace Liberu\CRM\SaasPackaging\Http\Controllers;
 
-use App\Models\Team;
-use App\Models\TeamSubscription;
+
+use Illuminate\Routing\Controller;
+use Liberu\Foundation\Organizations\Models\Team;
+use Liberu\Foundation\Organizations\Models\TeamSubscription;
 use App\Models\User;
-use App\Services\StripeService;
+use Liberu\CRM\SaasPackaging\Services\StripeService;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Log;
